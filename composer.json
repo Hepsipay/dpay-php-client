@@ -1,0 +1,31 @@
+{
+    "name": "hepsipay/hepsipay-php",
+    "type": "library",
+    "description": "PHP client library for integration access to Hepsipay api payment gateway",
+    "homepage": "https://www.hepsipay.com",
+    "license": "MIT",
+    "keywords": [
+        "hepsipay",
+        "hepsipay php",
+        "hepsipay api",
+        "hepsipay api php",
+        "hepsipay api php client",
+        "hepsipay.com"
+    ],
+    "authors": [
+        {
+            "name": "Hepsipay",
+            "homepage": "https://github.com/hepsipay/hepsipay-php",
+            "email": "entegrasyon@hepsipay.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
