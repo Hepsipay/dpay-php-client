@@ -31,8 +31,8 @@ class CurlClient
             CURLOPT_VERBOSE => false,
             CURLOPT_HEADER => false,
             CURLOPT_SSLVERSION => 6,
-            CURLOPT_SSL_VERIFYPEER => false,
-            CURLOPT_SSL_VERIFYHOST => false
+            CURLOPT_SSL_VERIFYPEER => true,
+            CURLOPT_SSL_VERIFYHOST => true
         ));
     }
 
